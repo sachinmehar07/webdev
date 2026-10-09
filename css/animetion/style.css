@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hu{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid #000;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+     transition: 
+      width 2s, 1s;
+    background-color: cadetblue  ;
+    background-color: 2s, 1s;
+    
+
+
+}
+#hu:hover{
+    width: 600px;
+    transition: 
+    width 2s, 1s;
+    background-color: blueviolet  ; 
+    background-color: 2s, 1s ;
+
+}
+#welcome::after{
+    content: "😒";
+    
+}
+#welcome{
+    color: rgb(10, 21, 31);
+}
+.d::before{
+    content: "❤️";
+
+
+}
+#box::after{
+    content: "😜";
+}
+#box{
+    
+    border:1px solid #000; 
+    height: 20px;
+    width: 20px;
+
+}
+#box:hover{
+    width: 500px;
+    transition: all 2s ease-in;
+}
