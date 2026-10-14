@@ -8,11 +8,11 @@ ar1[3]=30;
 ar2=[1,2,3,4,]
 
 
-ar1[3]=30;
-ar2=10;
+ar1[3]=30;  
+ar2=10;  
 
-console.log(ar1);
-console.log(ar2);
+console.log(ar1);  
+console.log(ar2);  
 
 const ch1=["abcd", "efg", "hij"];
 console.log(ch1)
@@ -33,14 +33,14 @@ arr.push("delhi");
 console.log(arr);
 
 arr.pop();
-console.log(arr);
+console.log(arr);  
 
-arr.splice(2,2)
-console.log(arr)
+arr.splice(2,2) 
+console.log(arr) 
 
 
-const Name = "lucky kumar singh rajput";
-console.log(Name);
+const Name = "lucky kumar singh rajput";  
+console.log(Name);  
 
 let x= Name.split(" ");
 
