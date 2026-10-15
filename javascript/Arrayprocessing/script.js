@@ -31,9 +31,9 @@ var Fix=ary2.findIndex((item) =>item==99);
 
 console.log("Fix =",Fix);
 
-const ar3=[2,5,1,17,3,9,4,6,8];  
+const ar3=[2,5,1,17,3,9,4,6,8];   
 
-var s= ar3.sort((a,b)=>b-a); 
+var s= ar3.sort((a,b)=>b-a);  
 
 console.log("s =",s);
 
