@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
     --p: #4f46e5;
     --p2: #7c3aed;
@@ -14,7 +16,7 @@ html {
 
 body {
     margin: 0;
-    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-family: "Libre Caslon Condensed";
     color: var(--text);
     line-height: 1.65;
     background: #fff;
@@ -979,6 +981,6 @@ small {
     }
 
     .footer-bottom {
-        flex-direction: column;
+        flex-direction: column; 
     }
 }
