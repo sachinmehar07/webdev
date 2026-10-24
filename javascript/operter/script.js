@@ -12,16 +12,16 @@ console.log(a!==b);//true
 
 let x=5;
 let y=2;
-console.log(x%y);//1
+console.log(x%y);//1 
 let p=10;
 let q=3;
 console.log(p/q);//3.3333
 
 let m=true;
-let n=false;
+let n=false; 
 let o=true;
 
-console.log(n && m);
+console.log(n && m); 
 console.log(n && o);
 console.log(m && o);
 

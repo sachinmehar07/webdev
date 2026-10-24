@@ -69,4 +69,4 @@ function empire() {
 
 empire();
 console.log("Princess of prince", prince);
-console.log("is", princess);
+console.log("is",0);
