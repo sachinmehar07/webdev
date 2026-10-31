@@ -34,3 +34,4 @@ function sum(...n){
 const answer=sum(2,3,5,4,8,5);
 
 console.log(answer);
+  
