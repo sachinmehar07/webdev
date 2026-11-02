@@ -94,6 +94,8 @@ console.log(testFromDataJSON);
 
 
  console.log("satudent with Nmae",stdName , "scored" ,marks );
+
+ 
  
 
  
