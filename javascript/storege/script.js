@@ -1,17 +1,39 @@
-const jsondata = 
-  {
-    title: "MyPhone 18",
-    description: "very good phone is deep beetroot Color",
-    button1: "₹25000",
-    button2: "buynow",
-  };
+const jsonData = {
+  title: "MyPhone 17",
+  description: "very good phone is deep beetroot Color",
+  button1: "₹25000",
+  button2: "buynow",
+};
 
-  const datareadytostore=JSON.stringify(jsondata);
+const dataReadyToStore = JSON.stringify(jsonData);
 
-  localStorage.setItem("mynewdata",datareadytostore);
-  localStorage.setItem("myname","sachin");
-  localStorage.setItem("your Name","saloni");
+localStorage.setItem("myNewData", dataReadyToStore);
+localStorage.setItem("myName", "sachin mehar");
+localStorage.setItem("Your Name", "saloni");
 
-  const getLSdata= localStorage.getItem("mynewdata");
+const getLSData = localStorage.getItem("myName");
 
-  document.querySelector("body").appendChild((document.createElement("div").innerText=getLSdata));
+localStorage.removeItem("Your Name");
+
+// document
+//   .querySelector("body")
+//   .appendChild((document.createElement("div").innerText = getLSData));
+
+const DIV = document.createElement("div");
+DIV.innerText = getLSData;
+
+const BODY = document.querySelector("body");
+BODY.appendChild(DIV);
+
+function PasswordVisibility() {
+  const IN = document.getElementById("myPassword");
+  const BN = document.getElementById("PasswordControl");
+
+  if (BN.innerHTML === `<i class="bi bi-eye"></i>`) {
+    IN.type = "text";
+    BN.innerHTML = `<i class="bi bi-eye-slash"></i>`;
+  } else {
+    IN.type = "password";
+    BN.innerHTML = `<i class="bi bi-eye"></i>`;
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min (2).css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar px-5 bg-primary">
+        <div class="navbar-brand text-light fs-3">passwordmanager</div>
+    </nav>
+    
+</header> 
+<section class="container p-3 rounded shadow border">
+    <div>
+        <label for="websiteName">websiteName</label>
+        <input type="text" name="userName" id="userName" class="form-control">
+
+        <button class="btn btn-primary">save </button>
+    </div>
+</section>
+
+<section class="container p-3 rounded shadow border mt-3">
+    <table class="table table-striped border table-bordered border-5">
+        <thead class="table-primary">
+        <tr>
+            <th>s.no</th>
+            <th>websiteName</th>
+            <th>UserName</th>
+            <th>password</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+    </table>
+    <tbody class="text-center" id="datatable">
+        <tr>
+            <th colspan="S">no data </th>
+        </tr>
+        
+    </tbody>
+</section>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
